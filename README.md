@@ -15,8 +15,8 @@ A web application that includes a two-page user interface with a Login and Calcu
   - Results display in a non-editable field.
   - Input fields are validated for null values, numbers-only, and division by zero.
 - **Stopwatch**
--   Time Display: Shows time in "HH:MM:SS" format, initially set to `00:00:00`.
--   Buttons:
+  - Time Display: Shows time in "HH:MM:SS" format, initially set to `00:00:00`.
+  - Buttons:
     - Start: Begins the timer.
     - Stop: Pauses the timer.
     - Reset: Resets the time to `00:00:00`.
