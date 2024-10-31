@@ -37,7 +37,9 @@ A web application that includes a two-page user interface with a Login and Calcu
 - **Error Handling**: Handles null values, special characters, and division by zero.
 - **Error Messages**: Displayed inline below each field in red.
 
+## Project Structure
 
+```plaintext
 ├── index.html         # Login page with form validations
 ├── calculator.html    # Calculator page with basic arithmetic operations
 ├── css/
