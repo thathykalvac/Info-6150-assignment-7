@@ -14,6 +14,14 @@ A web application that includes a two-page user interface with a Login and Calcu
   - Allows basic arithmetic operations (Add, Subtract, Multiply, Divide) between two input numbers.
   - Results display in a non-editable field.
   - Input fields are validated for null values, numbers-only, and division by zero.
+  **Stopwatch**
+- Time Display: Shows time in "HH:MM:SS" format, initially set to `00:00:00`.
+- Buttons:
+  - Start: Begins the timer.
+  - Stop: Pauses the timer.
+  - Reset: Resets the time to `00:00:00`.
+    - Date Picker: Displays the current date and allows selection of past and future dates without manual editing.
+    - Responsive Design: Basic CSS for a clean layout.
 
 ## Requirements
 
@@ -40,9 +48,14 @@ A web application that includes a two-page user interface with a Login and Calcu
 ## Project Structure
 
 ```plaintext
-├── index.html         # Login page with form validations
-├── calculator.html    # Calculator page with basic arithmetic operations
+├── index.html         
+├── calculator.html    
+├── stopwatch.html
 ├── css/
-│   └── style.css      # Basic styling for both pages
+│   └── login.css 
+│   └── calculator.css 
+│   └── stopwatch.css      
 └── js/
-    └── script.js      # jQuery and arrow function logic for validation and calculations
+    └── login.js
+    └── calculator.js
+    └── stopwatch.js      
