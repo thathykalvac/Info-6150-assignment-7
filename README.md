@@ -14,14 +14,14 @@ A web application that includes a two-page user interface with a Login and Calcu
   - Allows basic arithmetic operations (Add, Subtract, Multiply, Divide) between two input numbers.
   - Results display in a non-editable field.
   - Input fields are validated for null values, numbers-only, and division by zero.
-  **Stopwatch**
-- Time Display: Shows time in "HH:MM:SS" format, initially set to `00:00:00`.
-- Buttons:
-  - Start: Begins the timer.
-  - Stop: Pauses the timer.
-  - Reset: Resets the time to `00:00:00`.
-    - Date Picker: Displays the current date and allows selection of past and future dates without manual editing.
-    - Responsive Design: Basic CSS for a clean layout.
+- **Stopwatch**
+-   Time Display: Shows time in "HH:MM:SS" format, initially set to `00:00:00`.
+-   Buttons:
+    - Start: Begins the timer.
+    - Stop: Pauses the timer.
+    - Reset: Resets the time to `00:00:00`.
+  - Date Picker: Displays the current date and allows selection of past and future dates without manual editing.
+  - Responsive Design: Basic CSS for a clean layout.
 
 ## Requirements
 
